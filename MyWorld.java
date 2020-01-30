@@ -15,8 +15,7 @@ public class MyWorld extends World
      */
     public MyWorld()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 600, 1); 
+        super( 439,950, 1); 
         prepare();
     }
     public void started()
@@ -55,5 +54,9 @@ public class MyWorld extends World
         howClick.setLocation(404,244);
         About about = new About();
         addObject(about,198,276);
+        about.setLocation(124,406);
+        start.setLocation(204,559);
+        howClick.setLocation(289,394);
+        start.setLocation(226,531);
     }
 }

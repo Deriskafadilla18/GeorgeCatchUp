@@ -16,7 +16,7 @@ public class Info extends World
     public Info()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 600, 1); 
+        super( 439,950, 1);
         prepare();
     }
 

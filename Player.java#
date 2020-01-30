@@ -23,7 +23,7 @@ public class Player extends Actor
         if(Greenfoot.isKeyDown("right"))
         {
             setLocation(getX()+3, getY());
-            setImage("monyet21.png");
+            setImage("monyet1.png");
         }
         if(Greenfoot.isKeyDown("down"))
         {

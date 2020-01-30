@@ -9,37 +9,32 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Lv3 extends Mulai
 {   
     private int timer;
-    //Score hasil = new Score("Score : ");
-    
     public void act()
     {
         timer = timer + 1;
-        showText("Time: " + timer, 500, 25);
-        if(timer == 2000)
+        showText("Time: " + timer, 300, 25);
+        if(timer == 2500)
         {
-            //Lv2 level2 = new Lv2();
-            //level2.getScore = hasil.getHasil();
             Greenfoot.setWorld(new End());
-            
         }
         
-        if(Greenfoot.getRandomNumber(90)< 7)
+        if(Greenfoot.getRandomNumber(100)< 3)
         {
             Ceri ceri = new Ceri();
-            addObject(ceri, Greenfoot.getRandomNumber(600), Greenfoot.getRandomNumber(1));
+            addObject(ceri, Greenfoot.getRandomNumber(439), Greenfoot.getRandomNumber(8));
             
             Apel apel = new Apel();
-            addObject(apel, Greenfoot.getRandomNumber(600), Greenfoot.getRandomNumber(1));
+            addObject(apel, Greenfoot.getRandomNumber(439), Greenfoot.getRandomNumber(8));
             
             Pisang pisang = new Pisang();
-            addObject(pisang, Greenfoot.getRandomNumber(600), Greenfoot.getRandomNumber(1));
+            addObject(pisang, Greenfoot.getRandomNumber(439), Greenfoot.getRandomNumber(8));
             
         }
         
-        if(Greenfoot.getRandomNumber(90) < 3)
+        if(Greenfoot.getRandomNumber(90) < 1)
         {
             Bomb bomb = new Bomb();
-            addObject(bomb, Greenfoot.getRandomNumber(500), Greenfoot.getRandomNumber(1));
+            addObject(bomb, Greenfoot.getRandomNumber(439), Greenfoot.getRandomNumber(10));
             
         }
     }

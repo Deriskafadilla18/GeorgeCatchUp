@@ -16,7 +16,7 @@ public class GameOver2 extends World
     public GameOver2()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 600, 1); 
+        super( 439,950, 1); 
         Greenfoot.playSound("GameOver.mp3");
         prepare();
     }
@@ -36,17 +36,11 @@ public class GameOver2 extends World
         Player player = new Player();
         addObject(player,304,496);
 
-        /*Bomb bomb = new Bomb();
-        addObject(bomb,553,187);
-
-        Apel apel = new Apel();
-        addObject(apel,54,216);
-
-        Ceri ceri = new Ceri();
-        addObject(ceri,179,349);
-
-        Pisang pisang = new Pisang();
-        addObject(pisang,461,206);*/
-
+        player.setLocation(354,848);
+        tryAgain.setLocation(90,477);
+        home.setLocation(296,616);
+        home.setLocation(352,641);
+        tryAgain.setLocation(139,492);
+        player.setLocation(242,832);
     }
 }

@@ -16,7 +16,7 @@ public class End extends World
     public End()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 600, 1); 
+        super( 439,950, 1);  
         Greenfoot.playSound("Yeaa.mp3");
         prepare();
     }
@@ -32,5 +32,7 @@ public class End extends World
         addObject(home,481,548);
         TryAgain tryAgain = new TryAgain();
         addObject(tryAgain,94,547);
+        tryAgain.setLocation(118,698);
+        home.setLocation(329,791);
     }
 }

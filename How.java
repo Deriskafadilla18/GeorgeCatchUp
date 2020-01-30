@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class How extends World
 {
-
     /**
      * Constructor for objects of class How.
      * 
@@ -16,7 +15,7 @@ public class How extends World
     public How()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 600, 1); 
+        super( 439,950, 1); 
         prepare();
     }
 
